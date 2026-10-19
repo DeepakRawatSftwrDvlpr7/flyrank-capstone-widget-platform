@@ -1,0 +1,7 @@
+run: uvicorn main:app --reload
+seed: Automatic on startup via SQLite init
+base_url: http://localhost:8000
+endpoints:
+  - GET /widget.js
+  - POST /api/submit/w_123
+  - GET /api/dashboard

@@ -3,10 +3,10 @@
 A full-stack lead-generation platform adhering to the FlyRank Week 8 Capstone specifications.
 
 ## Architecture
-- **Widget Delivery:** `widget.js` served with `Cache-Control` headers.
-- **Submission API:** Protected by CORS middleware, `slowapi` rate limiting, and a honeypot field.
-- **Enrichment:** Attempts geo-location via `ip-api.com`, falling back to `ipapi.co`.
-- **Database:** SQLite handles tenant-isolated persistence.
+- **Widget Delivery: ** `widget.js` served with `Cache-Control` headers.
+- **Submission API: ** Protected by CORS middleware, `slowapi` rate limiting, and a honeypot field.
+- **Enrichment: ** Attempts geo-location via `ip-api.com`, falling back to `ipapi.co`.
+- **Database: ** SQLite handles tenant-isolated persistence.
 
 ## Run Instructions
 1. Install dependencies: `pip install fastapi uvicorn slowapi httpx pydantic`

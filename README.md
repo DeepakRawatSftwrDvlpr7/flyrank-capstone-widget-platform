@@ -10,6 +10,6 @@ A full-stack lead-generation platform adhering to the FlyRank Week 8 Capstone sp
 
 ## Run Instructions
 1. Install dependencies: `pip install fastapi uvicorn slowapi httpx pydantic`
-2. Run server: `uvicorn main:app --reload`
+2. Run server:`uvicorn main:app --reload`
 3. Test Widget: Open `test_origin.html` in your browser (acts as the second origin).
 4. View Dashboard: GET `http://localhost:8000/api/dashboard` with Header `Authorization: Bearer secret-admin-token`.
